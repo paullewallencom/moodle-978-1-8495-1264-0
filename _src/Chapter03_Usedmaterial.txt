@@ -1,0 +1,11 @@
+Windows Server 2008 Security Guide
+http://technet.microsoft.com/en-us/library/cc264463.aspx
+
+IIS 7 Administration pack
+http://www.iis.net/download/AdministrationPack
+
+Understanding Built-In User and Group Accounts in IIS 7
+http://learn.iis.net/page.aspx/140/understanding-built-in-user-and-group-accounts-in-iis-7/
+
+WinCache extension
+http://sourceforge.net/projects/wincache/

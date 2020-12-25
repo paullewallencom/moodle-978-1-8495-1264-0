@@ -1,0 +1,27 @@
+#!/bin/sh
+now=$(date +%d-%m-%Y)
+backupcmd=/usr/bin/mysqldump
+dbname=moodle
+bckupdir=/var/db/backup
+config=/etc/cron.daily/my.ini
+archive=$bckupdir/dump_$now
+logfile=$archive.log
+backupfile=$archive.sql
+scriptname=Moodle
+successmsg=Backup finished OK!
+failmsg="Unable to backup database! \
+Checkout log file $logfile."
+
+$backupcmd --defaults-extra-file=$config \
+-r $backupfile $dbname 2> $logfile
+
+rval=$?
+if [ $rval -eq 0 ] ;
+then
+   /bin/logger -s -p user.info \
+   -t $scriptname "$successmsg"
+else
+   /bin/logger -s -p user.err \
+   -t $scriptname "$failmsg"
+fi
+exit $rval

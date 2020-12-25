@@ -1,0 +1,24 @@
+Filesystem Hierarchy Standard - FHS
+http://proton.pathname.com/fhs/
+
+Red Hat Enterprise Linux Deployment Guide
+http://www.centos.org/docs/5/html/Deployment_Guide-en-US/index.html
+Copyright © 2006 Red Hat, Inc.
+This book is released under Open Publication Licence v1.0
+see (http://www.opencontent.org/openpub/)
+
+Most Reliable Hosting Company Sites in February 2010
+http://news.netcraft.com/archives/2010/03/01/most_reliable_hosting_company_sites_in_february_2010.html
+
+SELinux project page
+http://selinuxproject.org/
+
+Screenshot from WarGames
+WarGames is 1983 movie produced by MGM studios.
+http://www.mgm.com/view/movie/2117/WarGames/
+
+ModSecurity homepage
+http://www.modsecurity.org/
+
+Suhosin
+http://www.hardened-php.net/suhosin/index.html

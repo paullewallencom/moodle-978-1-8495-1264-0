@@ -1,0 +1,12 @@
+http://data.army.mil/datastrategy_authoritative.html
+http://en.wikipedia.org/wiki/Authentication
+http://en.wikipedia.org/wiki/Federated_identity
+
+The Web Application Hacker's Handbook
+Dafydd Stuttard & Marcus Pinto
+ISBN: 978-0-470-17077-9
+Published by
+Wiley Publishing, Inc.
+10475 Crosspoint Boulevard
+Indianapolis, IN 46256
+www.wiley.com

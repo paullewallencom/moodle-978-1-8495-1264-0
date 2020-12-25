@@ -1,0 +1,28 @@
+
+Remembering the Day the World Wide Web Was Born
+Scientific Americen 12. March 2009
+http://www.scientificamerican.com/article.cfm?id=day-the-web-was-born
+
+Internet Security as Part of the Overall Security Plan
+http://www.ctg.albany.edu/publications/reports/inet_security_seminar?chapter=1
+
+The Web Application Hacker's Handbook
+Dafydd Stuttard & Marcus Pinto
+ISBN: 978-0-470-17077-9
+Published by
+Wiley Publishing, Inc.
+10475 Crosspoint Boulevard
+Indianapolis, IN 46256
+www.wiley.com
+
+Why Web Application Security is Important
+http://security.media-solutions.de/download/whitepaper_watchfire/why_security_is_important.pdf
+Watchfire Corporation 2005
+In 2007 IBM Acquired Watchfire.
+http://www-03.ibm.com/press/us/en/pressrelease/21921.wss
+
+SQL Injection
+http://en.wikipedia.org/wiki/SQL_injection
+
+Buffer overflow
+http://en.wikipedia.org/wiki/Buffer_overflow

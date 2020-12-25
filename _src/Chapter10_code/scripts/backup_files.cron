@@ -1,0 +1,32 @@
+#!/bin/sh
+now=$(date +%d-%m-%Y)
+source=/var/www/moodledata
+destinationroot=/var/site/backup
+destination=$destinationroot/$now
+logfile=$destinationroot/backup_$now.log
+successmsg="Backup created in $destination"
+failmsg="Unable to create backup! \
+Check log file $logfile"
+direrrmsg="Invalid output directory! \
+Check $destinationroot"
+scriptname=Moodle
+
+if [ -d $destinationroot ] ; then
+   echo "" > /dev/null
+else
+   /bin/logger -s -p user.err \
+   -t $scriptname "$direrrmsg"
+   exit 1
+fi
+
+/usr/bin/rsync -av $source $destination &> $logfile
+
+rval=$?
+if [ $rval -eq 0 ] ; then
+   /bin/logger -s -p user.info \
+   -t $scriptname "$successmsg"
+else
+   /bin/logger -s -p user.err \
+   -t $scriptname "$failmsg"
+fi
+exit $rval
